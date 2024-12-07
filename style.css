@@ -1,0 +1,132 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://wallpapers.com/images/hd/dark-nature-1280-x-804-background-ab2yml7fnc6c9dy9.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+main{
+    background-color: transparent;
+    width: 420px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0,.8);
+    color: white;
+    border-radius: 11px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    padding: 60px 40px;
+}
+
+#Login_header {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.inputbox {
+    width: 90%;
+    height: 45px;
+    margin: 30px 0px;
+    display: flex;
+    padding-left: 29px;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 100%;
+    border: 0.2px solid;
+    border-radius: 35px;
+    box-shadow: 0 0 10px rgba(0,0,0,.32);
+    color: aliceblue;
+    background-color: transparent;
+    font-size: small;
+    border: 2px solid rgb(0, 0, 0, .4);
+    padding: 2px 50px 0px 20px;
+}
+
+.inputbox input:hover {
+    border: 2.1px solid rgb(243, 243, 248, .9);
+    outline: none;
+}
+
+.inputbox i {
+    position: relative;
+    right: 38px;
+    padding: 15px 0px;
+}
+
+.inputbox ::placeholder {
+    color: rgb(255, 255,255, .7);
+    font-size: small;
+    font-weight: lighter;
+}
+
+#remember {
+    display: flex;
+    justify-content: space-around;
+    font-size: 13.5px;
+    margin: -5px 0px 28.5px;
+}
+
+#remember label input {
+    accent-color: #ffff;
+    margin-right: 3px;
+}
+
+#remember a{
+    color: #ffff;
+    text-decoration: none;
+}
+#remember a:hover{
+    text-decoration: underline;
+}
+
+.btn {
+    width: 97.5%;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid rgb(8, 8, 87);
+    color: rgb(6, 6, 73);
+    background-color: rgb(150, 171, 189);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    outline: none;
+    font-size: large;
+    cursor: pointer;
+    font-weight: 600;
+    margin-left: 6px;
+}
+
+.btn:hover {
+    border: none;
+    background-color: aliceblue;
+    color: rgb(6,6,73);
+    box-shadow: 0 0 10px rgba(0,0,0,.9);
+}
+
+#newacc {
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+#newacc a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+#newacc a:hover {
+    text-decoration: underline;
+}
